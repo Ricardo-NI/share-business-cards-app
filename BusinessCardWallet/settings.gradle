@@ -1,0 +1,2 @@
+rootProject.name = "BusinessCardWallet"
+include ':app'

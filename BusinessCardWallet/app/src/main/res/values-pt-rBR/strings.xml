@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Carteira de Cartões de Visita</string>
+    <string name="description_add_new_card">adicionar novo cartão de visitas</string>
+    <string name="text_business_cards">Cartões de Visita</string>
+    <string name="text_new_card">Novo Cartão</string>
+    <string name="tx_hint_name">Nome</string>
+    <string name="confirm">confirmar</string>
+    <string name="tx_hint_company">Empresa</string>
+    <string name="tx_hint_contact_phone">Telefone de contato</string>
+    <string name="tx_hint_email">E-mail</string>
+    <string name="background_color">Cor de fundo</string>
+    <string name="custom_color">outra cor</string>
+    <string name="text_color">Cor do texto</string>
+    <string name="preview">Prévia</string>
+    <string name="tx_notice">Aviso</string>
+    <string name="msg_error_loading">Erro ao carregar os dados, por favor tente novamente!</string>
+    <string name="msg_error_input_name">Ops! Faltou preencher o nome.</string>
+    <string name="msg_error_input_company">Ops! Faltou preencher a empresa.</string>
+    <string name="msg_error_input_phone">Ops! Faltou preencher o telefone.</string>
+    <string name="msg_error_input_email">Ops! Faltou preencher o e-mail.</string>
+    <string name="msg_error_invalid_phone">Ops! Número de telefone  inválido.</string>
+    <string name="msg_error_invalid_email">Ops! Email inválido</string>
+    <string name="title_search_card">Pesquisar entre os cartões cadastrados.</string>
+    <string name="show_all">mostrar todos</string>
+    <string name="register_success">Cartão cadastrado com sucesso!</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Excluir</string>
+    <string name="cancel">Cancelar</string>
+    <string name="confirm_delete">Tem certeza de que deseja excluir o cartão</string>
+    <string name="delete_card">Excluir este cartão?</string>
+    <string name="update">atualizar</string>
+    <string name="edit_card">Editar Cartão</string>
+    <string name="update_success">Cartão atualizado com sucesso!</string>
+    <string name="information">Informação</string>
+    <string name="search_card_msg">Primeiro cadastre os cartões, para depois pesquisar entre os cartões cadastrados.</string>
+    <string name="msg_error_search">Digite um nome para pesquisar.</string>
+    <string name="msg_info_search">Não foram encontrados cartões que contenham o nome pesquisado.</string>
+    <string name="msg_error_save">Erro ao salvar os dados, por favor tente novamente!</string>
+    <string name="msg_info_share">Clique no cartão para compartilhá-lo.</string>
+    <string name="label_share">Compartilhar</string>
+    <string name="save_like_this">salvar assim</string>
+    <string name="msg_dlg_cores">Cores do fundo e do texto são iguais ou parecidas!</string>
+</resources>

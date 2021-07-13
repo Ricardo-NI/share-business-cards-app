@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Business Card Wallet</string>
+    <string name="description_add_new_card">add new business card</string>
+    <string name="text_business_cards">Business Cards</string>
+    <string name="text_new_card">New Card</string>
+    <string name="tx_hint_name">Name</string>
+    <string name="confirm">confirm</string>
+    <string name="tx_hint_company">Company</string>
+    <string name="tx_hint_contact_phone">Contact phone</string>
+    <string name="tx_hint_email">Email</string>
+    <string name="background_color">Background color</string>
+    <string name="custom_color">custom color</string>
+    <string name="text_color">Text color</string>
+    <string name="preview">Preview</string>
+    <string name="tx_notice">Notice</string>
+    <string name="ok" translatable="false">Ok</string>
+    <string name="msg_error_loading">Error loading data, please try again!</string>
+    <string name="msg_error_input_name">You need to fill in the name.</string>
+    <string name="msg_error_input_company">You need to fill in the company.</string>
+    <string name="msg_error_input_phone">You need to fill in the phone.</string>
+    <string name="msg_error_input_email">You need to fill in the email.</string>
+    <string name="msg_error_invalid_phone">Invalid phone number.</string>
+    <string name="msg_error_invalid_email">Invalid email.</string>
+    <string name="title_search_card">Search among registered cards.</string>
+    <string name="show_all">show all</string>
+    <string name="register_success">Card registered successfully!</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_delete">Are you sure you want to delete the card</string>
+    <string name="delete_card">Delete this card?</string>
+    <string name="update">update</string>
+    <string name="edit_card">Edit Card</string>
+    <string name="update_success">Card updated successfully!</string>
+    <string name="information">Information</string>
+    <string name="search_card_msg">First register the cards, then search among the registered cards.</string>
+    <string name="msg_error_search">Digite um nome para pesquisar.</string>
+    <string name="msg_info_search">No cards were found that contain the searched name.</string>
+    <string name="msg_error_save">Error saving data, please try again!</string>
+    <string name="msg_info_share">Click on the card to share it.</string>
+    <string name="label_share">Share</string>
+    <string name="save_like_this">save like this</string>
+    <string name="msg_dlg_cores">Background and text colors are the same or similar!</string>
+</resources>
