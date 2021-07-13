@@ -77,8 +77,6 @@ class AddBusinessCardActivity : AppCompatActivity(),CellColorClickListener {
         customAlertDialog = CustomAlertDialog(this)
 
         setupRecyclerView()
-        //setupToggleButtonColors()
-
 
         val bundle: Bundle? = intent.extras
         bundle?.let {
@@ -91,14 +89,11 @@ class AddBusinessCardActivity : AppCompatActivity(),CellColorClickListener {
                  }
             }
         }
-
-        //setupTextInputs()
+        
         insertListeners()
     }
 
     private fun setupRecyclerView(){
-
-        //fillColorLists()
 
         for(i in backColorsArray.indices){
             val color = ColorItem(i + 1, backColorsArray[i])
@@ -155,42 +150,7 @@ class AddBusinessCardActivity : AppCompatActivity(),CellColorClickListener {
             }
         }
     }
-
-/*
-    private fun setupToggleButtonColors(){
-
-        binding.toggleButtonColors.addOnButtonCheckedListener { _, checkedId, _ ->
-
-            when (checkedId) {
-                R.id.button_back_color -> {
-                    if(!backgroundColorsSelected){
-                        backgroundColorsSelected = true
-                        adapter.setData(objListColorsBack)
-                    }
-                }
-                else -> {
-                    if(backgroundColorsSelected){
-                        backgroundColorsSelected = false
-                        adapter.setData(objListColorsText)
-
-                    }
-                }
-            }
-        }
-    }*/
-/*
-    private fun fillColorLists(){
-
-        for(i in backColorsArray.indices){
-            val color = ColorItem(i + 1, backColorsArray[i])
-            objListColorsBack.add(color)
-        }
-
-        for(i in textColorsArray.indices){
-            val color = ColorItem(i + 1, textColorsArray[i])
-            objListColorsText.add(color)
-        }
-    }*/
+   
 
     private fun saveOrUpdateCard(testInput: Boolean){
 
@@ -300,14 +260,6 @@ class AddBusinessCardActivity : AppCompatActivity(),CellColorClickListener {
         }
         return isValid
     }
-    /*
-    private fun setupTextInputs(){
-
-        if(businessCardId == -1) {
-            binding.txInputName.requestFocus() //abrir o teclado junto com a Activity.
-        }
-        binding.txInputPhone.addTextChangedListener(Mask.mask(PHONE_MASK, binding.txInputPhone))
-    }*/
 
     private fun fillFields(businessCard: BusinessCard){
 
